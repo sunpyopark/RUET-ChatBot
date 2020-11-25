@@ -6,7 +6,7 @@ node {
 
     env.AWS_ECR_LOGIN=true
     def newApp
-    def registry = 'krandmm/RUET-ChatBot'
+    def registry = 'krandmm/ruet-chatbot'
     def registryCredential = 'docker-hub'
 	
 	stage('Git') {
