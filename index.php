@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AAA RUET ChatBot</title>
+  <title>RUET ChatBot</title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -115,7 +115,7 @@
 
 
 <div class="chat">
-<a style="text-decoration:none;" href="#"><div id="sc"><center ><img style="float:left;" src="img/ruet.png" width="20px" height="20px"/><b>Chat With RUET</b></center></div></a>
+<a style="text-decoration:none;" href="#"><div id="sc"><center ><img style="float:left;" src="img/ruet.png" width="20px" height="20px"/><b>Sunpyo Chat With RUET</b></center></div></a>
 <div id="panel">
   
 
