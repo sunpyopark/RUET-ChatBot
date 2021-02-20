@@ -7,6 +7,7 @@ node {
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'krandmm/ruet-chatbot'
+    def version = 'v0.1.'
     def registryCredential = 'docker-hub'
 	
 	stage('Git') {
@@ -15,7 +16,7 @@ node {
 
 	stage('Building image') {
         docker.withRegistry('https://registry.hub.docker.com', registryCredential) {
-		    def buildName = registry + ":$BUILD_NUMBER"
+		    def buildName = registry + version + ":$BUILD_NUMBER"
 			newApp = docker.build buildName
 			newApp.push()
         }
