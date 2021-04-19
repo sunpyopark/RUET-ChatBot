@@ -2,7 +2,7 @@
 
 $host="localhost";
 $user="root";
-$pass="password";
+$pass="";
 $db="chat";
 
 $con=mysqli_connect($host,$user,$pass,$db);
