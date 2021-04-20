@@ -115,7 +115,7 @@
 
 
 <div class="chat">
-<a style="text-decoration:none;" href="#"><div id="sc"><center ><img style="float:left;" src="img/ruet.png" width="20px" height="20px"/><b>SubServe ChatBot v0.1.11 </b></center></div></a>
+<a style="text-decoration:none;" href="#"><div id="sc"><center ><img style="float:left;" src="img/ruet.png" width="20px" height="20px"/><b>SubServe ChatBot v0.1.12 </b></center></div></a>
 <div id="panel">
   
 
