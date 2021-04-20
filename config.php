@@ -1,6 +1,6 @@
 <?php
 
-$host="mysql";
+$host="subserve-chatbot-mysql";
 $user="root";
 $pass="password";
 $db="chat";
