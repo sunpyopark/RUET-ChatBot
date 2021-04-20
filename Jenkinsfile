@@ -32,12 +32,6 @@ node {
         }
         }
 
-	
-	stage('Registring image') {
-        docker.withRegistry('https://registry.hub.docker.com', registryCredential) {
-    		newApp.push 'latest'
-        }
-	}
         stage('Removing image') {
             sh "docker rmi $registry:$BUILD_NUMBER --force"
             sh "docker rmi $registry:latest --force"
