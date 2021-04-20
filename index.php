@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RUET ChatBot</title>
+  <title>SubServe ChatBot</title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -135,7 +135,7 @@ $(document).ready(function(){
 
           if(i==1)
           {
-              $('#div').html("<div class=\"ou\"> Hello Guest. Welcome To Ruet Chat</div><br>");
+              $('#div').html("<div class=\"ou\"> Hello Guest. Welcome To SubServe Chat</div><br>");
 
           }
           
